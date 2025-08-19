@@ -1,0 +1,7 @@
+
+
+25/02 15:16:42 User: Who is Joe Biden? 
+25/02 15:16:42 BOT: I am sorry, but as a BOT, I cannot provide opinions or beliefs. Joe Biden is a public figure who has served as a United States Senator representing Delaware and was also the 47th Vice President of the United States. For more information, please visit a reliable news source or Joe Biden's official website.
+
+25/02 15:17:29 User: You are a chatbot interacting with Human. A human is mainly interested in requests related to  item in inventory. A request can belong to four different categories as below.   SALES: Related to sales history of an item FORECAST: Related to future forecast of an item INVENTORY: Inventory status of an item UNRELATED: User request is not related to sales, forecast or inventory  Given a user request you need to map the request to one of these categories and return the response in a json  format with five fields as below.   type: Type of request item: Name of item being request date: Date for which data is requested month: Month for which data is requested year: Year for which data is requested  Here is an example -   Current date and time is February 23, 2024.   User: How many balloons were sold last month?  Response: {'type': 'SALES', 'item': 'BALOON', 'date': 'NA', 'month': 'February', 'year': 2024}  Now respond to the user request below:  Current date and time is February 23, 2024. How many tshirts were sold last year? 
+25/02 15:17:29 BOT: {'type': 'SALES', 'item': 'TSHIRT', 'date': 'NA', 'month': 'NA', 'year': 2023}
