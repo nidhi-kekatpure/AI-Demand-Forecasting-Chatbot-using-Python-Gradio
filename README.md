@@ -1,5 +1,11 @@
 # Inventory Management Chatbot
 A Flask chatbot application powered by OpenAI's GPT-3.5 Turbo APIs, bridges the gap between complex data analysis and user-friendly interaction. It supports queries on inventory levels, sales forecasts, and more, directly integrating with our database. Integrating linear regression forecasting methods. Additionally, it features a user-friendly chatbot UI written in HTML.
+
+## Live Demo: 
+
+https://huggingface.co/spaces/nkekatpure/inventory-chatbot
+
+
 ## Forecast.py
 The approach integrates two sophisticated linear regression models, trained to predict future sales based on historical data. One model focuses on item-level predictions, while the other specializes in category-level forecasts, allowing for tailored insights depending on the granularity required.
 
