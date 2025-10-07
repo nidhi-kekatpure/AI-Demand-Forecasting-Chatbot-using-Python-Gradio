@@ -50,6 +50,9 @@ Scalable Solutions: Ensure scalability by designing functions that can handle va
 
 Error Handling: Implement robust error-handling mechanisms to manage unexpected scenarios, ensuring uninterrupted functionality and reliability of inventory management processes.
 ## App.py
+
+![Dashboard Screenshot](img1.png)
+
 Chat Interface: Utilizing Flask, the project offers a user-friendly chat interface where inventory managers can interact with the chatbot to obtain insights and perform various inventory-related tasks.
 
 AI-Powered Conversational Agent: The chatbot is equipped with OpenAI's GPT-3.5 Turbo model, enabling it to understand user queries, provide contextually relevant responses, and handle complex conversations with natural language processing capabilities.
